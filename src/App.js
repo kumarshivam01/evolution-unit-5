@@ -11,7 +11,7 @@ export default function App() {
   const multChange = (value) => {
     setCounter(counter * value);
   };
-
+  ////
   return (
     <div className="App">
       <h1 className={counter % 2 === 0 ? "counterEven" : "counterOdd"}>
